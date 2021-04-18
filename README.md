@@ -5,13 +5,13 @@ set hls
 set is
 set cb=unnamed
 set guifont=Consolas:h15
-colorscheme desert
+colorscheme default
 set ts=4
 set sw=4
 set si
 
 
-autocmd filetype python nnoremap <F9> :w <bar> !python %<CR>
+autocmd filetype python nnoremap <F2> :w <bar> !python %<CR>
 
 
 syntax enable
